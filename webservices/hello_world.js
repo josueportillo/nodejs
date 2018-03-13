@@ -10,6 +10,6 @@ http.createServer(function(req, res) {
     '<div id="content"><p>Pagina de prueba de node.js. JP. 2018.</p></div>' + 
     '\n\n');
   res.end();
-}).listen(8888, '172.31.3.246');
+}).listen(8888, '0.0.0.0');
 console.log('Server running at http://ec2-18-219-207-233.us-east-2.compute.amazonaws.com:8888');
 
